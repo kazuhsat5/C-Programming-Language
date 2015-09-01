@@ -4,7 +4,7 @@ int main()
 {
     int dir, c, cnt, i;
 
-    printf("direction[v/h]\n");
+    printf("direction [v/h]\n");
 
     dir = getchar();
 
@@ -30,7 +30,6 @@ int main()
         for (i=0; i<cnt; i++) {
             printf("*");
         }
-
         printf("\n");
     }
 }
